@@ -29,10 +29,6 @@ class Laser : Gun {
 		reloading = false;
 	}
 
-	void Test() {
-		Debug.Log("I Called once");
-	}
-
 
 	public override void Shoot(){
 		if(tmpAmmo > 0 && !reloading){

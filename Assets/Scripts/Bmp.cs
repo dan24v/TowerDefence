@@ -7,6 +7,7 @@ public class Bmp : Vehicle {
 
 	[SerializeField]
 	private float speed;
+	
 	void Start () {
 		base.Init();
 	}
